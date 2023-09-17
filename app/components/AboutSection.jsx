@@ -6,7 +6,7 @@ import TabButton from './TabButton'
 const AboutSection = () => {
     const [tab, setTab] = useState("skills")
     const [isPending, startTransition] = useTransition()
-    const languages = ["C", "Java", "React.js", "Node.js", "Mysql"]
+    const languages = ["C", "Java", "React.js", "Node.js", "MySQL"]
     const educations = ["UNSW", "RMIT"]
     const certificates = ["Accredited Engineer", "Bachelor in Engineering"]
     const TAB_DATA = [
