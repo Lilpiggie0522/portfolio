@@ -6,37 +6,28 @@ import ProjectTag from './ProjectTag'
 const projectsData = [
     {
         id: 1,
-        title: "React Portfolio Website",
-        description: "Personal Website",
-        image: "/images/portfolio.JPG",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/Lilpiggie0522/portfolio",
-        previewUrl: "https://github.com/Lilpiggie0522/portfolio"
-    },
-    {
-        id: 2,
         title: "Amazon Clone",
         description: "A Clone of Amazon page built using React.js",
         image: "/images/amazon_clone.JPG",
-        tag: ["All", "Web"],
+        tag: ["All", "React.Js"],
         gitUrl: "https://github.com/Lilpiggie0522/amazon_clone",
         previewUrl: "https://clone-25fa5.web.app/"
     },
     {
-        id: 3,
+        id: 2,
         title: "To Do List",
         image: "/images/todo_list.JPG",
         description: "A simple To-Do list coded using React.js",
-        tag: ["All", "Web"],
+        tag: ["All", "Vanilla Js"],
         gitUrl: "https://github.com/Lilpiggie0522/todo_list",
         previewUrl: "https://piggie-todolist.netlify.app/"
     },
     {
-        id: 4,
+        id: 3,
         title: "Robo Friends",
         image: "/images/robo_friends.JPG",
         description: "A webpage built in React.js that aims to better help understand React Components",
-        tag: ["All", "Web"],
+        tag: ["All", "Vanilla Js"],
         gitUrl: "https://github.com/Lilpiggie0522/Robofriends",
         previewUrl: "https://piggie-robofriends.netlify.app/"
     }
@@ -62,14 +53,14 @@ const filteredProjects = projectsData.filter((project) =>
 
             <ProjectTag 
                 onClick={handleTagChange} 
-                name="Web" 
-                isSelected={tag === "Web"}
+                name="React.Js" 
+                isSelected={tag === "React.Js"}
             />
 
             <ProjectTag 
                 onClick={handleTagChange} 
-                name="Mobile" 
-                isSelected={tag === "Mobile"}
+                name="Vanilla Js" 
+                isSelected={tag === "Vanilla Js"}
             />
         </div>
         <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
