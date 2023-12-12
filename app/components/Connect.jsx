@@ -28,7 +28,7 @@ const Connect = () => {
           to make one.
         </p>
         <div className='text-white mb-4 max-w-md text-md font-bold'>
-          <CopyToClip />
+          <CopyToClip textToCopy={'pengtuzhang@gmail.com'}/>
         </div>
       
         <div className="socials flex flex-row gap-2">

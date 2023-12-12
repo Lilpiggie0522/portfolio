@@ -21,7 +21,7 @@ const CopyToClip = ({ textToCopy }) => {
   
     return (
         <button onClick={handleCopyClick} disabled={isCopied}>
-            {isCopied ? 'Copied!' : 'pengtuzhang@gmail.com'}
+            {isCopied ? 'Copied!' : textToCopy}
         </button>
     );
   };
