@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Developed using Next.js and Tailwind CSS
-
+A personal portfolio website developed using Next.js and Tailwind CSS.
 ## Deployed using Vercel
 ```
 https://piggie-portfolio.vercel.app
