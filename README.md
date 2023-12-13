@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Developed using Next.js and Tailwind CSS
 
-## Deploy using Vercel
+## Deployed using Vercel
 ```
 https://piggie-portfolio.vercel.app
 ```
